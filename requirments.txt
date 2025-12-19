@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy>=2.0
+asyncpg
+alembic
+redis
+pydantic-settings
+python-json-logger
+prometheus-client
+opentelemetry-sdk
+opentelemetry-instrumentation-fastapi
