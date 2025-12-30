@@ -11,5 +11,5 @@ app.add_middleware(RateLimitMiddleware)
 def health():
     return {"status": "ok"}
 
-app.include_router(links.router, prefix="/v1")
+app.include_router(links.router)
 app.include_router(redirect.router)
